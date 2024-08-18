@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btnEntrar{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+}
+.btnEntrar:hover{
+    background-color: white;
+    color: black;
+    /* border: 1px solid black; */
+}
+.btnQuemSomos{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnContato{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnCarrinho{
+    height: 32px;
+}
+header{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    position: fixed;
+}
+
+.logo{
+    width: 175px; 
+    margin-right: auto; 
+    margin-left: 48px;
+}
+
+/* header :first-child {
+    width: 175px; 
+    margin-right: auto; 
+    margin-left: 30px;
+} */
+
+header div{
+    display: flex; 
+    align-items: center; 
+    margin-right: 48px;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+/*                             aqui acaba o header                                 */
+
+.section1{
+    height: 1650px;
+    background-color: #F5F5F5;
+    padding-top: 86.92px;
+}
+.areaPesquisa{
+    background-image: url('img/Header\ with\ image.png');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    margin: 48px 48px 10px 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tituloAreaPesquisa{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Inter";
+}
+div h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Inter";
+}
+.btnRestaurantes{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+}
+.btnRestaurantes:hover{
+    background-color: white;
+    color: black;
+}
+.imputEndereço{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/*                        a barra de pesquisa termina aqui                    */
+/* segunda parte da section */
+.Promocoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    gap: 43px;
+}
+.melhoresRestaurantes{
+    margin: 0px 48px;
+}
+.melhoresRestaurantes h1{
+    font-size: 30px;
+    font-family: "Inter";
+    color: black;
+    font-weight: bolder;
+}
+.melhoresRestaurantes div{
+    display: flex;
+    gap: 63.25px;
+    margin-top: 27.5px;
+}
+.trabalheConosco{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 30px;
+}
+.trabalheConosco img{
+    width: 400px;
+    height: 400px;
+}
+/* aqui termina o body */
+/* aqui começa o footer */
+footer{
+    display: flex;
+    width: 1253px;
+    margin-left: 48px;
+    margin-top: 25px;
+}
+footer img{
+    width: 175px; 
+    height: 76.92px;
+    margin-right: 450px; 
+}
+footer h3{
+    font-size: 15px;
+    font-family: "Inter";
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.opcoesFooter{
+    display: flex;
+    gap: 100px;
+}
